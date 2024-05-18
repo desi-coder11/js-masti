@@ -1,4 +1,4 @@
-//  Primitive
+//  Primitive (stack)  -> copy banega memory me aur value change nhi hogi original ki
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -18,7 +18,7 @@ console.log(id === anotherId);
 
 
 
-// Reference (Non primitive)
+// Reference (Non primitive) -> naya variable original variable to hi point karega aur agar naya variable me koi change karenge to dusre me bhi change hoga.
 
 // Array, Objects, Functions
 
@@ -35,3 +35,6 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
